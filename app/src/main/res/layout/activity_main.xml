@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ff0889de"
     tools:context=".activity.MainAct">
     <FrameLayout
         android:id="@+id/fl_left_menu"
