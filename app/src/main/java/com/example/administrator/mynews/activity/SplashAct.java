@@ -1,4 +1,4 @@
-package com.example.administrator.mynews;
+package com.example.administrator.mynews.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,6 +10,7 @@ import android.view.animation.RotateAnimation;
 import android.view.animation.ScaleAnimation;
 import android.widget.RelativeLayout;
 
+import com.example.administrator.mynews.R;
 import com.example.administrator.mynews.utils.PrefUtils;
 
 public class SplashAct extends Activity {

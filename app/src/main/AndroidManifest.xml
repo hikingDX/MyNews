@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SplashAct"
+            android:name=".activity.SplashAct"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -17,9 +17,10 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".GuideAct">
+        <activity android:name=".activity.GuideAct">
         </activity>
-        <activity android:name=".MainAct">
+        <activity android:name=".activity.MainAct"
+                  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
         </activity>
     </application>
 

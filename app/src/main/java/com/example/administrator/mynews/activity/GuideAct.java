@@ -1,4 +1,4 @@
-package com.example.administrator.mynews;
+package com.example.administrator.mynews.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -14,6 +14,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
+import com.example.administrator.mynews.R;
 import com.example.administrator.mynews.utils.PrefUtils;
 
 import java.util.ArrayList;
