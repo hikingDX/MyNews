@@ -8,13 +8,11 @@
     tools:context=".activity.MainAct">
     <FrameLayout
         android:id="@+id/fl_left_menu"
-        android:background="#66ff0000"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     </FrameLayout>
     <FrameLayout
         android:id="@+id/fl_content"
-        android:background="#6600ff00"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     </FrameLayout>
