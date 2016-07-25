@@ -33,6 +33,12 @@ public class MainAct extends Activity {
         transaction.replace(R.id.fl_content,new ContentFrg(),FRAGMENT_CONTENT);
         transaction.commit();//提交事务
     }
+
+    public LeftMenuFrg getLeftMenuFragment(){
+        FragmentManager fm = getFragmentManager();
+        LeftMenuFrg frg = (LeftMenuFrg) fm.findFragmentByTag(FRAGMENT_LEFT_MENU);
+        return frg;
+    }
 }
 
 
